@@ -9,15 +9,19 @@
 ## 🏛️ Sobre o Projeto
 Este repositório apresenta um estudo de caso prático utilizando a biblioteca **Pandas** para o monitoramento da qualidade do ar na cidade de Bogotá (Rede RMCAB). O projeto é estruturado conforme a arquitetura padronizada de Ciência de Dados (**Fase A, B e C**), servindo como base didática para o mestrado **IA na Borda (UFSC)**.
 
-### 🎯 Foco do Workshop
-O objetivo central é demonstrar como o Pandas atua na **Fase B (Design & Preparação)**, transformando dados brutos de sensores em insights visuais e datasets preparados para inteligência artificial.
+### 🏛️ As Três Fases do Projeto
 
-Recursos abordados:
-- **Ingestão:** Leitura de CSV e extração de metadados.
-- **Tratamento:** Limpeza de coordenadas e datas.
-- **Filtragem:** Identificação de picos de poluição crítica.
-- **Estatística:** Agrupamentos e médias por localidade.
-- **Fase C:** Geração de mapas de calor geoespaciais e preparação para ML.
+1. **Fase A - Explorar (Discovery)**: 
+   - **Objetivo**: Avaliar a viabilidade técnica e entender o domínio dos dados de sensores.
+   - **Ação**: Identificar se os sensores estão ativos e se os dados são acessíveis e confiáveis.
+
+2. **Fase B - Design (Preparação)**: 
+   - **Objetivo**: Limpar, transformar e estruturar os dados brutos para alimentar modelos de IA.
+   - **Ação**: Tratamento de nulos, filtros, agrupamentos e engenharia de variáveis usando **Pandas** e **NumPy**.
+
+3. **Fase C - Implementar (Prototipagem)**: 
+   - **Objetivo**: Criar a solução final, modelos de predição e visualizações de impacto.
+   - **Ação**: Geração de mapas de calor geoespaciais e implementação de modelos como KNN ou Redes Neurais.
 
 ---
 
@@ -26,14 +30,14 @@ Recursos abordados:
 ### Option 1: Google Colab (Recomendado)
 Você pode rodar toda a atividade sem instalar nada clicando no botão abaixo:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JamaicaStoAndre/Ci-ncia-de-dados-com-Pandas/blob/master/Intro_Pandas_Bogota.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JamaicaStoAndre/Ciencia_de_Dados_com_Pandas/blob/master/Intro_Pandas_Bogota.ipynb)
 
 > **Nota:** Se estiver rodando no Colab, certifique-se de fazer o upload do arquivo `bogota_sensors_sample.csv` para a barra lateral de arquivos.
 
 ### Option 2: Local (Via Git)
 ```bash
-git clone https://github.com/JamaicaStoAndre/Ci-ncia-de-dados-com-Pandas.git
-cd Ci-ncia-de-dados-com-Pandas
+git clone https://github.com/JamaicaStoAndre/Ciencia_de_Dados_com_Pandas.git
+cd Ciencia_de_Dados_com_Pandas
 # Instale as dependências
 pip install pandas folium seaborn matplotlib
 ```
@@ -55,7 +59,7 @@ No final do notebook, geramos um **Mapa de Calor Interativo** que permite visual
 ---
 
 ## 🎓 Desafio Prático
-Preparamos dois exercícios ao final do notebook para que os alunos possam consolidar os conceitos de **Filtro** e **Estatísticas Agrupadas**. O gabarito está disponível no arquivo: `Exercicios_Suporte.md`.
+Preparamos dois exercícios ao final do notebook para que os alunos possam consolidar os conceitos de **Filtro** e **Estatísticas Agrupadas**. O código de resolução também está incluído no final do notebook como gabarito.
 
 ---
 <div align="center">
