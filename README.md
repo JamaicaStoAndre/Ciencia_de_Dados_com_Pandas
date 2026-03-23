@@ -1,56 +1,63 @@
-# Estudo de Caso: Qualidade do Ar em Bogotá (RMCAB) 🌬️📈
+# <div align="center">🌍 Projeto Qualidade do Ar: Monitoramento RMCAB Bogotá</div>
 
-Este repositório contém o material didático e experimental para a apresentação de **Mestrado na UFSC** sobre a biblioteca **Pandas**, focando na arquitetura padronizada de Ciência de Dados.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/JamaicaStoAndre/Ci-ncia-de-dados-com-Pandas/master/bogota_air_quality_banner.png" alt="Banner" width="100%">
+</div>
 
 ---
 
-## 🏛️ Arquitetura do Projeto
+## 🏛️ Sobre o Projeto
+Este repositório apresenta um estudo de caso prático utilizando a biblioteca **Pandas** para o monitoramento da qualidade do ar na cidade de Bogotá (Rede RMCAB). O projeto é estruturado conforme a arquitetura padronizada de Ciência de Dados (**Fase A, B e C**), servindo como base didática para o mestrado **IA na Borda (UFSC)**.
 
-Nosso fluxo de trabalho segue três fases fundamentais para projetos de cidades inteligentes:
+### 🎯 Foco do Workshop
+O objetivo central é demonstrar como o Pandas atua na **Fase B (Design & Preparação)**, transformando dados brutos de sensores em insights visuais e datasets preparados para inteligência artificial.
 
-### **Fase A: Explorar (Discovery & Feasibility)**
-Identificação de fontes de dados, verificação de sensores e análise preliminar de viabilidade técnica da Rede de Monitoramento da Qualidade do Ar de Bogotá.
-
-### **Fase B: Design (Preparação de Dados)**
-*Foco da nossa apresentação.*
-Utilizamos **Pandas** para ingerir, limpar, filtrar e preparar os dados brutos. Nesta fase, tratamos valores ausentes e preparamos as variáveis para modelos preditivos (ML).
-
-### **Fase C: Implementar (Solução & Visualização)**
-Implementação de modelos de Machine Learning (como KNN ou Redes Neurais) para imputação de dados e geração de visualizações de impacto, como o **Mapa de Calor de Poluição**.
+Recursos abordados:
+- **Ingestão:** Leitura de CSV e extração de metadados.
+- **Tratamento:** Limpeza de coordenadas e datas.
+- **Filtragem:** Identificação de picos de poluição crítica.
+- **Estatística:** Agrupamentos e médias por localidade.
+- **Fase C:** Geração de mapas de calor geoespaciais e preparação para ML.
 
 ---
 
 ## 🚀 Como Iniciar
 
-### 1. Requisitos
-*   Python 3.10+
-*   Pandas, NumPy, Matplotlib, Seaborn
-*   Folium (Para visualização de mapas)
-*   Scikit-Learn (Para suporte de ML)
+### Option 1: Google Colab (Recomendado)
+Você pode rodar toda a atividade sem instalar nada clicando no botão abaixo:
 
-### 2. Google Colab (Interativo)
-Para rodar a demonstração prática, faça o upload do arquivo `Intro_Pandas_Bogota.ipynb` no seu Google Drive e abra-o com o Google Colab.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JamaicaStoAndre/Ci-ncia-de-dados-com-Pandas/blob/master/Intro_Pandas_Bogota.ipynb)
 
-### 3. Dataset de Exemplo
-Utilizamos o arquivo `bogota_sensors_sample.csv` que contém uma amostra real das estações:
-*   **USM** (Usme)
-*   **KEN** (Kennedy)
-*   **TUN** (Tunal)
-*   **USQ** (Usaquén)
+> **Nota:** Se estiver rodando no Colab, certifique-se de fazer o upload do arquivo `bogota_sensors_sample.csv` para a barra lateral de arquivos.
 
----
-
-## 💡 Conteúdo Pandas abordado:
-1.  **Ingestão:** `pd.read_csv`
-2.  **Tratamento:** Limpeza e conversão de coordenadas (DMS para Decimal).
-3.  **Filtragem:** `df[df['PM2.5'] > 50]` (Identificando alertas críticos).
-4.  **Agrupamento:** `df.groupby('Station').mean()` (Insights por localidade).
-5.  **ML Prep:** `pd.get_dummies` e conversão de tipos temporais.
+### Option 2: Local (Via Git)
+```bash
+git clone https://github.com/JamaicaStoAndre/Ci-ncia-de-dados-com-Pandas.git
+cd Ci-ncia-de-dados-com-Pandas
+# Instale as dependências
+pip install pandas folium seaborn matplotlib
+```
 
 ---
 
-## 🗺️ Resultado Visual
-O notebook gera um **Mapa de Calor Interativo** baseado nas concentrações de poluição (PM2.5) registradas em tempo real em Bogotá.
+## 📊 Estrutura dos Dados
+O dataset de exemplo (`bogota_sensors_sample.csv`) contém leituras coletadas de sensores reais, incluindo:
+- **PM2.5 / PM10:** Matérias particuladas (indicadores de saúde).
+- **CO / O3:** Gases poluentes.
+- **Latitude / Longitude:** Metadados geográficos das estações.
+- **Estações:** Kennedy (KEN), Usme (USM), Tunal (TUN), entre outras.
 
 ---
-*Este projeto faz parte da disciplina de IA na Borda do Mestrado UFSC.*
+
+## 🗺️ Visualização de Impacto
+No final do notebook, geramos um **Mapa de Calor Interativo** que permite visualizar a dispersão da poluição na malha urbana de Bogotá, facilitando a tomada de decisão em políticas de saúde pública.
+
+---
+
+## 🎓 Desafio Prático
+Preparamos dois exercícios ao final do notebook para que os alunos possam consolidar os conceitos de **Filtro** e **Estatísticas Agrupadas**. O gabarito está disponível no arquivo: `Exercicios_Suporte.md`.
+
+---
+<div align="center">
+  <sub>Desenvolvido como parte do programa de Mestrado UFSC - IA na Borda</sub>
+</div>
