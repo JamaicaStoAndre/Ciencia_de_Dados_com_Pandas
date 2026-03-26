@@ -46,7 +46,9 @@
 
 Você pode rodar toda a atividade sem instalar nada clicando no botão abaixo:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JamaicaStoAndre/Ciencia_de_Dados_com_Pandas/blob/master/Intro_Pandas_Bogota.ipynb)
+<a href="https://colab.research.google.com" target="_blank" rel="noopener noreferrer">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+</a>
 
 > **Nota:** Se estiver rodando no Colab, certifique-se de fazer o upload do arquivo `bogota_sensors_sample.csv` para a barra lateral de arquivos.
 
