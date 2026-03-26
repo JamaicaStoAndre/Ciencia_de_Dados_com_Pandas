@@ -46,7 +46,7 @@
 
 Você pode rodar toda a atividade sem instalar nada clicando no botão abaixo:
 
-<a href="https://colab.research.google.com" target="_blank" rel="noopener noreferrer">
+<a href="https://colab.research.google.com/github/JamaicaStoAndre/Ciencia_de_Dados_com_Pandas/blob/master/Intro_Pandas_Bogota.ipynb" target="_blank" rel="noopener noreferrer">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
 </a>
 
