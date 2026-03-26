@@ -15,6 +15,7 @@
 
 - Leitura de Arquivos (CSV)
 - Operações básicas (filtros, agrupamentos, estatísticas)
+- Ponte Didática: Uso de **NumPy** para geração de gráficos (Matplotlib)
 - Criação de Séries, DataFrame e Visualização do resultado
 
 ### 🏛️ As Três Fases do Projeto
