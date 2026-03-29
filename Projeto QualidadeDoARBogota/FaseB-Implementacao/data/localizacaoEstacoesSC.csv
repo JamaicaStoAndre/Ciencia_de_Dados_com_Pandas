@@ -1,0 +1,21 @@
+estacion,Sigla,Latitud,Longitud,Altitud (m),Altura (m),Localidad,Tipo de zona,Tipo de estación,Dirección
+guaymaral,GYR,"28°26'34.6""S","48°56'57.2""W",2580,0,Suba,Sub urbana,De fondo,Autopista Norte # 205-59
+usaquen,USQ,"28°26'03.3""S","48°57'36.6""W",2570,10,Usaquén,Urbana,De fondo,Carrera 7B Bis # 132-11
+suba,SUB,"28°26'12.8""S","48°57'10.2""W",2571,6,Suba,Sub urbana,De fondo,Carrera 111 # 159A-61
+bolivia,BOL,"28°26'37.3""S","48°56'45.1""W",2574,0,Engativá,Sub urbana,De fondo,Avenida Calle 80 # 121-98
+las_ferias,LFR,"28°26'40.0""S","48°57'52.4""W",2552,0,Engativá,Urbana,De tráfico,Avenida Calle 80 # 69Q-50
+centro_alto_rendimiento,CDAR,"28°27'12.9""S","48°57'46.7""W",2552,0,Engativá,Urbana,De tráfico,Calle 63 # 59A-06
+movil_7ma,7MA,"28°27'27.3""S","48°57'50.9""W",2583,0,Chapinero,Urbana,De tráfico,Carrera 7 con calle 60
+minambiente,MAM,"28°27'20.1""S","48°58'30.3""W",2621,15,Santa Fe,Urbana,De tráfico,Calle 37 # 8-40
+fontibon,FTB,"28°27'29.9""S","48°58'31.6""W",2551,11,Fontibón,Urbana,De tráfico,Carrera 104 # 20 C - 31
+pueste_aranda,PTE,"28°27'36.8""S","48°58'27.8""W",2590,10,Puente Aranda,Urbana,Industrial,Calle 10 # 65-28
+kennedy,KEN,"28°27'38.6""S","48°58'26.6""W",2580,3,Kennedy,Urbana,De fondo,Carrera 80 # 40-55 sur
+carvajal_sevillana,CSE,"28°27'54.7""S","48°58'08.2""W",2563,3,Kennedy,Urbana,Tráfico/industrial,Autopista Sur # 63-40
+tunal,TUN,"28°28'00.6""S","48°58'15.0""W",2589,0,Tunjuelito,Urbana,De fondo,Carrera 24 # 49-86 sur
+san_cristobal,SCR,"28°28'20.4""S","48°58'27.6""W",2688,0,San Cristóbal,Urbana,De fondo,Carrera 2 Este # 12-78 sur
+el_jazmin,JAZ,"28°28'31.3""S","48°58'41.0""W",2559,0,Puente Aranda,Urbana,Residencial,Calle 1 G # 41 A 39
+usame,USM,"28°28'44.5""S","48°58'57.9""W",2593,0,Usme,Urbana,Residencial,Carrera 11 # 65 D 50 Sur
+bosa,BOS,"28°28'35.8""S","48°59'10.8""W",2546,0,Bosa,Urbana,De fondo,Diagonal 73 F Sur # 78 - 44
+ciudad_bolivar,CBV,"28°28'37.6""S","48°59'47.1""W",2661,0,Ciudad Bolívar,Urbana,Residencial,Calle 70 Sur # 56 - 11
+colina,COL,"28°28'28.1""S","49°00'28.4""W",2555,0,Suba,Urbana,De fondo,Avenida Boyacá No 142ª-55
+movil_fontivon,MOV2,"28°27'51.0""S","49°00'41.2""W",2547,0,Fontibón,Urbana,Tráfico/industrial,Cra. 98 #16 B 50
